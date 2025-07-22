@@ -28,11 +28,30 @@ The application uses a very simple __ECG__ generator that forms it from basic wa
 
 ## Visual effects
 
-Sending a command is accompanied by flashing
+Sending a data is accompanied by flashing
 
-## Application end
+## Application management
 
-## Monitoring
+> Installing packages:
+
+* __mqtt__
+```
+micrcx@micrcx-desktop:~/toit/mqtt$ jag pkg install github.com/toitware/mqtt@v2
+Info: Package 'github.com/toitware/mqtt@2.13.1' installed with name 'mqtt'
+```
+* __pixel_strip__
+```
+micrcx@micrcx-desktop:~/toit/mqtt$ jag pkg install github.com/toitware/toit-pixel-strip@v0.3
+Info: Package 'github.com/toitware/toit-pixel-strip@0.3.0' installed with name 'pixel_strip'
+```
+
+> Loading the application:
+
+```
+micrcx@micrcx-desktop:~/toit/mqtt$ jag run mqtt_ecg_sink.toit
+Running 'mqtt_rgb_led.toit' on 'polished-bill' ...
+Success: Sent 99KB code to 'polished-bill' in 2.79s
+```
 
 ## Movie I
 ## Movie II
