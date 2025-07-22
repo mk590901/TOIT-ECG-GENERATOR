@@ -25,7 +25,6 @@ The application uses a very simple __ECG__ generator that forms it from basic wa
 
  <img width="2406" height="1425" alt="time diagram" src="https://github.com/user-attachments/assets/bb540c91-caa0-4bdd-bd15-77daf87c3aed" />
 
-
 ## Visual effects
 
 Sending a data is accompanied by flashing
@@ -54,5 +53,10 @@ Success: Sent 99KB code to 'polished-bill' in 2.79s
 ```
 
 ## Movie I
+
+Controlling the ESP32-S3 oscillator by special Flutter app
+
+https://github.com/user-attachments/assets/3f1a2741-b914-4f50-a872-b069a9f013ac
+
 ## Movie II
 ## Movie III
