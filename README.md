@@ -12,6 +12,19 @@ When a start command is received, a timer is started that generates an artificia
 
 The application uses a very simple __ECG__ generator that forms it from basic waveform with __P__, __QRS__ and __T__ waves using simplest mathematical functions. The code of generator is in the file __ecg_wave.toit__. Please note the comments.
 
+## Brief description of the application
+
+1) When the application starts, an mqtt client is created, a connection to the broker is started, and a subscription to the topic is performed. This step is accompanied by a small visual effect: upon successful connection and subscription, the LED turns green.
+   
+2) Control commands are transmitted by subscription in the form of json strings. There are only three of them:
+   * ECG start: _{"cmd":"startEcg"}_
+   * ECG final: _{"cmd":"finalEcg"}_
+   * application end: _{"cmd":"stop"}_
+     
+3) App time diagram
+
+ <img width="2406" height="1425" alt="time diagram" src="https://github.com/user-attachments/assets/bb540c91-caa0-4bdd-bd15-77daf87c3aed" />
+
 
 ## Visual effects
 
