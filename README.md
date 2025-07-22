@@ -1,6 +1,6 @@
 # Toit ECG Generator
 
-The application is a controlled (via __MQTT layer__) generator of an artificial ECG signal on on the __ESP32-S3-WROOM__ board.
+The application is a controlled (via __MQTT layer__) generator of an artificial __ECG__ signal on on the __ESP32-S3-WROOM__ board.
 
 ## Introduction
 
