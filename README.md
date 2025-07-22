@@ -25,6 +25,10 @@ The application uses a very simple __ECG__ generator that forms it from basic wa
 
  <img width="2406" height="1425" alt="time diagram" src="https://github.com/user-attachments/assets/bb540c91-caa0-4bdd-bd15-77daf87c3aed" />
 
+## Data Packing
+
+It's worth paying attention to the method of packing the list of __ECG__ signal values. Pay attention to the __ListF64RWB__ class (_file list_rwb.toit_), or more precisely to the __put__ method, packing the list of real numbers into a __ByteArray__ in a format that corresponds to the __double__ of __Dart data format__. Then the __ByteArray__ is translated into a __Base64__ string, encapsulated in a __DataPacket__ structure (_file data_packet.toit_) and sent to the __mqtt broker__.
+
 ## Visual effects
 
 Sending a data is accompanied by flashing
