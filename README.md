@@ -49,7 +49,7 @@ Info: Package 'github.com/toitware/toit-pixel-strip@0.3.0' installed with name '
 
 ```
 micrcx@micrcx-desktop:~/toit/mqtt$ jag run mqtt_ecg_sink.toit
-Running 'mqtt_rgb_led.toit' on 'polished-bill' ...
+Running 'mqtt_ecg_sink.toit' on 'polished-bill' ...
 Success: Sent 99KB code to 'polished-bill' in 2.79s
 ```
 
