@@ -67,7 +67,7 @@ https://github.com/user-attachments/assets/3f1a2741-b914-4f50-a872-b069a9f013ac
 
 ## Movie III
 
-The process of loading the application onto the chip, sending data and closing the application is reflected on video.
+The process of loading the application onto the chip, establish connection with MQTT broker, sending data and closing the application is reflected on video.
 
 https://github.com/user-attachments/assets/93bc1801-4c66-4711-a0ad-8b25a19dae77
 
