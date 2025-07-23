@@ -64,10 +64,13 @@ https://github.com/user-attachments/assets/3f1a2741-b914-4f50-a872-b069a9f013ac
 
 ## Movie II
 
+__ECG Service App__ renders __ESP32-S3__ generator signals parallelly together with signals other __ECG__ sinks.
+
+https://github.com/user-attachments/assets/a4b02263-b826-4602-b296-beff575b301c
 
 ## Movie III
 
-The process of loading the application onto the chip, establish connection with MQTT broker, sending data and closing the application is reflected on video.
+The process of loading the application onto the chip, establish connection with __MQTT broker__, sending data and closing the application is reflected on video.
 
 https://github.com/user-attachments/assets/93bc1801-4c66-4711-a0ad-8b25a19dae77
 
