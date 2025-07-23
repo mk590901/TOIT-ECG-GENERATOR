@@ -58,7 +58,7 @@ Success: Sent 99KB code to 'polished-bill' in 2.79s
 
 ## Movie I
 
-Controlling the ESP32-S3 oscillator by special Flutter app
+Controlling the __ESP32-S3__ oscillator by special __Flutter__ app
 
 https://github.com/user-attachments/assets/3f1a2741-b914-4f50-a872-b069a9f013ac
 
