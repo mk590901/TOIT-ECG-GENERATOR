@@ -57,7 +57,7 @@ generate_ecg -> List :
     v1 = math.pow ((mod_t - (qrs_center + 0.025)) / (QRS_DURATION / 3)) 2
     signal += -0.3 * QRS_AMP * (math.exp -v1)  // S
 
-    // P-wave (Gaussian function)
+    // T-wave (Gaussian function)
     t_center := 0.7 * period    
     v1 = math.pow ((mod_t - t_center) / T_DURATION) 2
     signal += T_WAVE_AMP * (math.exp -v1)
